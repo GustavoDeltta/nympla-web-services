@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres
+    container_name: Nympla
+    environment:
+      POSTGRES_DB: Nympla
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5431:5432"
+    restart: always
