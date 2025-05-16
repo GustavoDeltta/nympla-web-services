@@ -1,10 +1,10 @@
-package com.studies.CleanArchitectureJava;
+package com.studies.webservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NymplaApplicationTests {
+class NymplaTests {
 
 	@Test
 	void contextLoads() {
